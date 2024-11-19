@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style_admin/style_nova_noticia.css">
+    <title>Publicar notícia</title>
+</head>
+<body>
+    <div id="content-main">
+        <div  id="header-pag"><a href="admin_home.html"><img src="static/img/icons/Back.png" alt="" id="btn-back"></a><h2>PUBLICAR NOTÍCIA</h2></div>
+        <div id="area-formulario">
+            <form method="post">
+                <div class="text-field">
+                    <label for="titulo-not">Título:</label>
+                    <input type="text" name="titulo-not" id="titulo-not">
+                </div>
+
+                <div class="text-field">
+                    <label for="autor-not">Autor:</label>
+                    <input type="text" name="autor-not" id="autor-not">
+                </div>
+                <div class="text-field">
+                    <label for="texto-not">Texto:</label>
+                    <input type="text" name="texto-not" id="texto-not">
+                </div>
+
+                <div class="text-field">
+                    <label for="data-publicacao">Data de publicação</label>
+                    <input type="datetime-local" name="data-publicacao" id="data-publicacao" class="data-publicacao">
+                </div>
+
+                <div class="text-field">
+                    <p>Imagem: </p>
+                    <button id="btn-add">Adicionar imagem</button>
+                </div>
+                <div id="area-btn-salvar">
+                    <button id="btn-salvar">Publicar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
