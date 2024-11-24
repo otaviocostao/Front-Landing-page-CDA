@@ -1,0 +1,36 @@
+table {
+	border-collapse: collapse;
+	border-bottom: outset;
+}
+
+#conteudo{
+	width: 100%;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	padding-top: 5vh;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f4f4f4;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 3vw;
+	padding-right: 3vw;
+
+}
+
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+tr:hover {
+	
+	background-color: #f1f1f1;
+}
